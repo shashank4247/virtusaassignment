@@ -16,11 +16,11 @@ filter={"error":0, "critical":0, "failed login":0}
 sent=[]
 with open('server.log', 'r') as file:
     for line in file:
-            line=line.lower()
-            if "critical" in line or "failed login" in line or "error" in line:
+            lower_line=line.lower()
+            if "critical" in lower_line or "failed login" in lower_line or "error" in lower_line:
                 sent.append(line)
             for key in filter:
-                if key in line:
+                if key in lower_line:
                     filter[key]+=1
 for ele in filter:
     if(filter[ele]==0):

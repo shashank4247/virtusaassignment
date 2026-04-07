@@ -22,7 +22,7 @@ CREATE TABLE Shipments (
     Promised_date DATE,
     Destinationcity VARCHAR(100),
     Status VARCHAR(100),
-    FOREIGN KEY (PartnerID) REFERENCES Partners(PartnerID),
+    FOREIGN KEY (PartnerID) REFERENCES Partners(PartnerID)
 );
 
 CREATE TABLE DeliveryLogs (
