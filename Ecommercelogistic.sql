@@ -1,4 +1,5 @@
-/* Business Case: "SwiftShip" is a third-party logistics provider. They handle thousands of packages daily. Their current challenge is "Lost in Transit" items and identifying which delivery partners are underperforming.
+/*1. SQL: The "E-Commerce Logistics" Tracker
+Business Case: "SwiftShip" is a third-party logistics provider. They handle thousands of packages daily. Their current challenge is "Lost in Transit" items and identifying which delivery partners are underperforming.
 Problem Statement
 Create a tracking database that identifies delayed shipments and ranks delivery partners based on their "Success Rate."
 Student Tasks:
